@@ -1,4 +1,4 @@
-name: intfold_debug
+name: intfold
 channels:
   - bioconda
   - conda-forge
