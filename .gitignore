@@ -1,0 +1,10 @@
+.vscode/
+.idea/
+__pycache__/
+build
+dist
+*.o
+*.so
+*.ninja*
+*.pickle
+logs/
