@@ -9,7 +9,7 @@
 
 <div align="center" style="margin: 20px 0;">
   <span style="margin: 0 10px;">⚡ <a href="https://server.intfold.com">IntFold Server</a></span>
-  &bull; <span style="margin: 0 10px;">📄 <a href="https://intfold-server-dev.oss-cn-hongkong.aliyuncs.com/IntFold_Technical_Report.pdf">Technical Report</a></span>
+  &bull; <span style="margin: 0 10px;">📄 <a href="https://arxiv.org/abs/2507.02025">Technical Report</a></span>
 </div>
 
 
@@ -50,7 +50,7 @@ For comprehensive usage instructions and examples, refer to the [Usage Guide](do
 ## 📊 Benchmarking
 To comprehensively evaluate the performance of IntFold, we conducted a rigorous evaluation on [FoldBench](https://github.com/BEAM-Labs/FoldBench). We compared IntFold against several leading methods, including [Boltz-1,2](https://github.com/jwohlwend/boltz), [Chai-1](https://github.com/chaidiscovery/chai-lab), [Protenix](https://github.com/bytedance/Protenix) and [Alphafold3](https://github.com/google-deepmind/alphafold3).
 
-For more details on the benchmarking process and results, please refer to our [Technical Report](https://intfold-server-dev.oss-cn-hongkong.aliyuncs.com/IntFold_Technical_Report.pdf).
+For more details on the benchmarking process and results, please refer to our [Technical Report](https://arxiv.org/abs/2507.02025).
 
 ![Benchmark Metrics](assets/intfold_metrics.png)
 
@@ -66,8 +66,17 @@ For more details on the benchmarking process and results, please refer to our [T
 
 If you use IntFold in your research, please cite our paper:
 
-the official citation will be available soon.
-
+```
+@misc{theintfoldteam2025intfoldcontrollablefoundationmodel,
+      title={IntFold: A Controllable Foundation Model for General and Specialized Biomolecular Structure Prediction}, 
+      author={The IntFold Team and Leon Qiao and Wayne Bai and He Yan and Gary Liu and Nova Xi and Xiang Zhang},
+      year={2025},
+      eprint={2507.02025},
+      archivePrefix={arXiv},
+      primaryClass={q-bio.BM},
+      url={https://arxiv.org/abs/2507.02025}
+}
+```
 
 
 ## 🔗 Acknowledgements
