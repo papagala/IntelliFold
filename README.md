@@ -1,24 +1,24 @@
 ![IntFold Cover](assets/intfold-cover.png)
 
 # IntFold: A Controllable Foundation Model for General and Specialized Biomolecular Structure Prediction
-[![HuggingFace Models](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Models-yellow)](https://huggingface.co/GAGABIG/CNN)
+[![HuggingFace Models](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Models-yellow)](https://huggingface.co/intelligenAI/intfold)
 [![PyPI](https://img.shields.io/pypi/v/intfold)](https://pypi.org/project/intfold/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)
 [![Email](https://img.shields.io/badge/Email-Contact-lightgrey?logo=gmail)](#contact-us)
 
 
 <div align="center" style="margin: 20px 0;">
-  <span style="margin: 0 10px;">⚡ <a href="https://server.intfold.com">IntFold Server</a></span>
+  <span style="margin: 0 10px;">⚡ <a href="https://server.intfold.com">IntelliFold Server</a></span>
   &bull; <span style="margin: 0 10px;">📄 <a href="https://arxiv.org/abs/2507.02025">Technical Report</a></span>
 </div>
 
 
-![IntFold Model](assets/Intfold-Model-Arc.png)
+![IntelliFold Model](assets/Intfold-Model-Arc.png)
 
 
 ## 🚀 Quick Start
 
-To quickly get started with IntFold, you can use the following commands:
+To quickly get started with IntelliFold, you can use the following commands:
 ```bash
 # Install IntFold from PyPI
 pip install intfold
@@ -48,23 +48,23 @@ For comprehensive usage instructions and examples, refer to the [Usage Guide](do
 
 
 ## 📊 Benchmarking
-To comprehensively evaluate the performance of IntFold, we conducted a rigorous evaluation on [FoldBench](https://github.com/BEAM-Labs/FoldBench). We compared IntFold against several leading methods, including [Boltz-1,2](https://github.com/jwohlwend/boltz), [Chai-1](https://github.com/chaidiscovery/chai-lab), [Protenix](https://github.com/bytedance/Protenix) and [Alphafold3](https://github.com/google-deepmind/alphafold3).
+To comprehensively evaluate the performance of IntelliFold, we conducted a rigorous evaluation on [FoldBench](https://github.com/BEAM-Labs/FoldBench). We compared IntelliFold against several leading methods, including [Boltz-1,2](https://github.com/jwohlwend/boltz), [Chai-1](https://github.com/chaidiscovery/chai-lab), [Protenix](https://github.com/bytedance/Protenix) and [Alphafold3](https://github.com/google-deepmind/alphafold3).
 
 For more details on the benchmarking process and results, please refer to our [Technical Report](https://arxiv.org/abs/2507.02025).
 
 ![Benchmark Metrics](assets/intfold_metrics.png)
 
 
-## 🌐 IntFold Server
+## 🌐 IntelliFold Server
 
-**We highly recommend using the [IntFold Server](https://server.intfold.com) for the most accurate, complete, and convenient biomolecular structure predictions.** It requires no installation and provides an intuitive web interface to submit your sequences and visualize results directly in your browser. The server runs the **full, optimized, latest** IntFold implementation for optimal performance.
+**We highly recommend using the [IntelliFold Server](https://server.intfold.com) for the most accurate, complete, and convenient biomolecular structure predictions.** It requires no installation and provides an intuitive web interface to submit your sequences and visualize results directly in your browser. The server runs the **full, optimized, latest** IntelliFold implementation for optimal performance.
 
-![IntFold Server](assets/intfold-server-screenshot.png)
+![IntelliFold Server](assets/intfold-server-screenshot.png)
 
 
 ## 📜 Citation
 
-If you use IntFold in your research, please cite our paper:
+If you use IntelliFold in your research, please cite our paper:
 
 ```
 @misc{theintfoldteam2025intfoldcontrollablefoundationmodel,
