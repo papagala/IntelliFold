@@ -201,12 +201,12 @@
    See the License for the specific language governing permissions and
    limitations under the License.
 
-Implementation of the `LayerNorm` operators (in intfold/openfold/utils/layer_norm/) referred to [OneFlow]
+Implementation of the `LayerNorm` operators (in intellifold/openfold/utils/layer_norm/) referred to [OneFlow]
 (https://github.com/Oneflow-Inc/oneflow) and [FastFold](https://github.com/hpcaitech/FastFold). 
-Many components in `intfold/openfold/` are adapted from [OpenFold](https://github.com/aqlaboratory/openfold), with substantial modifications and improvements by our team (except for the `LayerNorm` part).  
+Many components in `intellifold/openfold/` are adapted from [OpenFold](https://github.com/aqlaboratory/openfold), with substantial modifications and improvements by our team (except for the `LayerNorm` part).  
 OneFlow, FastFold, and OpenFold are all licensed under the Apache License 2.0.
 
-The inference data pipeline in `intfold/data/` is adapted from [Boltz-1](https://github.com/jwohlwend/boltz).
+The inference data pipeline in `intellifold/data/` is adapted from [Boltz-1](https://github.com/jwohlwend/boltz).
 Boltz-1 is licensed under the MIT License.  
 The MIT License and copyright notice are included below.
 

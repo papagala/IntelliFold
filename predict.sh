@@ -6,7 +6,7 @@
 # export CUTLASS_PATH=.../path/to/cutlass
 
 
-PYTHON_FILE=./run_intfold.py
+PYTHON_FILE=./run_intellifold.py
 
 
 INPUT_DATA=./examples/5S8I_A.yaml

@@ -1,45 +1,45 @@
 ### Run with Command line
 
-If you set up `IntFold` by `pip`, you can run the following command to do model inference:
+If you set up `IntelliFold` by `pip`, you can run the following command to do model inference:
 
 ```bash
 
 # run with example yaml, which contains precomputed msa files(.a3m or .csv). the default seed is 42.
 ## a3m MSA file type
-intfold predict ./examples/5S8I_A.yaml --out_dir ./output 
+intellifold predict ./examples/5S8I_A.yaml --out_dir ./output 
 ## csv MSA file type
-intfold predict ./examples/7yds.yaml --out_dir ./output 
+intellifold predict ./examples/7yds.yaml --out_dir ./output 
 
 # Predict with a directory of YAMLs
-intfold predict ./examples --out_dir ./output
+intellifold predict ./examples --out_dir ./output
 
 # run with 5 seeds(mutiple seeds are splited them by comma) and 5 samples (the default parameters for AlphaFold3).
-intfold predict ./examples/5S8I_A.yaml --seed 42,43,44,45,46 --num_diffusion_samples 5 --out_dir ./output
+intellifold predict ./examples/5S8I_A.yaml --seed 42,43,44,45,46 --num_diffusion_samples 5 --out_dir ./output
 
 # if the input yaml file do not contain precomputed msa paths, you can set --use_msa_server to search msa(need internet connection and would take some time) 
 # and use greedy msa pairing strategy
 # and then predict
-intfold predict examples/examples_wo_msa/example_without_msa.yaml --out_dir ./output --seed 42,66 --use_msa_server --msa_pairing_strategy greedy
+intellifold predict examples/examples_wo_msa/example_without_msa.yaml --out_dir ./output --seed 42,66 --use_msa_server --msa_pairing_strategy greedy
 
 # only run the data processing step, and not run the model.
-intfold predict ./examples/5S8I_A.yaml --out_dir ./output --only_run_data_process
+intellifold predict ./examples/5S8I_A.yaml --out_dir ./output --only_run_data_process
 
 ```
 
 ### Run with Bash Script
 
-The aurguments is the same as `intfold predict`, and you can set the parameters in the script.
-you can get the help information by running `intfold predict --help` or `python run_intfold.py --help`
+The aurguments is the same as `intellifold predict`, and you can set the parameters in the script.
+you can get the help information by running `intellifold predict --help` or `python run_intellifold.py --help`
 ```bash
 bash predict.sh
 ## or
-## python run_intfold.py ....
+## python run_intellifold.py ....
 ```
-Common arguments of this `scripts`/`intfold predict` are explained as follows:
+Common arguments of this `scripts`/`intellifold predict` are explained as follows:
 * `--out_dir` (`PATH`, default: `./`)  
   The path where to save the predictions.
-* `--cache` (`PATH`, default: `~/.intfold`)  
-  The directory where to download the data and model. Will use environment variable `INTFOLD_CACHE` as an absolute path if set.
+* `--cache` (`PATH`, default: `~/.intellifold`)  
+  The directory where to download the data and model. Will use environment variable `INTELLIFOLD_CACHE` as an absolute path if set.
 * `--num_workers` (`INTEGER`, default: `4`)  
   The number of dataloader workers to use for prediction.
 * `--precision` (`str`, default: `bf16`)  

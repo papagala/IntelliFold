@@ -1,4 +1,4 @@
-name: intfold
+name: intellifold
 channels:
   - bioconda
   - conda-forge

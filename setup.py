@@ -1,14 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="intfold",
+    name="intellifold",
     python_requires=">=3.10",
-    version="0.1.4",
-    packages=find_packages(include=["intfold", "intfold.*", "runner"]),
-    description="IntFold: A Controllable Foundation Model for General and Specialized Biomolecular Structure Prediction.",
+    version="0.1.0",
+    packages=find_packages(include=["intellifold", "intellifold.*", "runner"]),
+    description="IntelliFold: A Controllable Foundation Model for General and Specialized Biomolecular Structure Prediction.",
     author="IntelliGen AI",
     author_email="contact@intfold.com",
-    url="https://github.com/IntelliGen-AI/IntFold",
+    url="https://github.com/IntelliGen-AI/IntelliFold",
     install_requires = [
         "accelerate==1.1.1",
         "biopython==1.85",
@@ -34,13 +34,13 @@ setup(
     ],
     include_package_data=True,
     package_data={
-        "intfold": ["openfold/utils/layer_norm/kernel/*"],
+        "intellifold": ["openfold/utils/layer_norm/kernel/*"],
     },
     license="Apache 2.0 License",
     platforms="manylinux1",
     entry_points={
         "console_scripts": [
-            "intfold = runner.intfold_inference:intfold_cli",
+            "intellifold = runner.intellifold_inference:intellifold_cli",
         ],
     },
 )
